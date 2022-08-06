@@ -26,5 +26,9 @@ body {
 
 .offset-position {
     position: absolute;
-    top: 40px;
+    top: 15px;
 }
+
+/* #dice-button:hover {
+    box-shadow: 120px 80px 40px 20px #0ff;
+} */

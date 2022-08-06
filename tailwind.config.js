@@ -7,6 +7,7 @@ module.exports = {
         darkBlue: '#293242',
         medBlue: '#374256',
         chemicalGreen: '#53ffab',
+        hoverGreen: '#00FF80',
         lightBlue: '#cfe3ea',
       }
     },
