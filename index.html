@@ -4,18 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./tailwind.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <title>Advice generator app</title>
-  <h1 class="text-red-600">test</h1>
-
-
 </head>
 
-<body>
+<body class=" flex justify-center items-center min-h-screen bg-darkBlue">
+
+  <main id="generator" class="p-12 bg-medBlue rounded-2xl">
+    <h2 class="text-center mb-5 text-chemicalGreen text-sm uppercase tracking-sm font-bold">advice #117</h2>
+    <p id="advice" class="text-center mb-5 text-lightBlue text-2xl font-bold">&#34;Mustache affogato pickled, aesthetic
+      cardigan disrupt
+      organic cliche
+      tofu fam
+      coloring book swag
+      vaporware.&#34;</p>
+    <figure id="divider" class="w-full">
+      <img src="./images/pattern-divider-desktop.svg" alt="text divider" class="w-full">
+    </figure>
+    <div id="button-wrapper" class="flex justify-center relative">
+      <button id="dice-button" class="flex justify-center items-center bg-chemicalGreen rounded-full offset-position">
+        <img src="./images/icon-dice.svg" alt="dice icon">
+      </button>
+    </div>
+
+
+  </main>
 
 
   <script src="./getapi.js"></script>
