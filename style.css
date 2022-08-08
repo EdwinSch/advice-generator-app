@@ -29,6 +29,6 @@ body {
     top: 15px;
 }
 
-/* #dice-button:hover {
-    box-shadow: 120px 80px 40px 20px #0ff;
-} */
+#dice-button:hover {
+    box-shadow: 0px 0px 25px 5px #00FF80;
+}
